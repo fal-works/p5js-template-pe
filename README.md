@@ -1,6 +1,6 @@
-# p5.js template 0
+# p5.js template 1
 
-Template project for [p5.js](https://p5js.org/) sketches using [Visual Studio Code](https://code.visualstudio.com/), [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/).
+Template project for [p5.js](https://p5js.org/) sketches using [Visual Studio Code](https://code.visualstudio.com/), [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and related plugins.
 
 ## Dependencies (npm)
 
