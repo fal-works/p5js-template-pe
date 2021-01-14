@@ -4,9 +4,17 @@
     "browser": true,
     "p5js/p5": true
   },
-  "plugins": ["p5js"],
-  "extends": ["eslint:recommended", "plugin:p5js/p5", "prettier"],
   "parserOptions": {
     "ecmaVersion": 6
-  }
+  },
+  "extends": [
+    // basic recommended rules
+    "eslint:recommended",
+
+    // overwrite config for p5.js
+    "@fal-works/p5js",
+
+    // turn off rules that might conflict with prettier
+    "prettier"
+  ]
 }
