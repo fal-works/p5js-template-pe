@@ -15,5 +15,8 @@
 
     // turn off rules that might conflict with prettier
     "prettier"
-  ]
+  ],
+  "rules": {
+    "lines-around-comment": "error"
+  }
 }
