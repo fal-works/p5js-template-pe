@@ -1,5 +1,9 @@
 # p5.js Template PE
 
+*Other languages (wiki):* [[ ja ]](https://github.com/fal-works/p5js-template-pe/wiki/Readme-ja)
+
+## About
+
 Template project for creating [p5.js](https://p5js.org/) sketches using the following tools:
 
 - Code editor: [Visual Studio Code](https://code.visualstudio.com/)
@@ -21,10 +25,10 @@ In general, the below only need to be done once.
 
 2. Install the VS Code extensions as follows:
 
-    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
-    (from CLI: `code --install-extension dbaeumer.vscode-eslint`)
     - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  
     (from CLI: `code --install-extension esbenp.prettier-vscode`)
+    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
+    (from CLI: `code --install-extension dbaeumer.vscode-eslint`)
 
 ### Prepare to create your sketch
 
