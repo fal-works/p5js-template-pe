@@ -3,9 +3,6 @@
     "es6": true,
     "browser": true
   },
-  "parserOptions": {
-    "ecmaVersion": 6
-  },
   "extends": [
     // basic recommended rules
     "eslint:recommended",
@@ -13,10 +10,14 @@
     // overwrite config for p5.js
     "@fal-works/p5js",
 
-    // turn off rules that might conflict with prettier
+    // turn off rules that might conflict with Prettier
     "prettier"
   ],
   "rules": {
-    "lines-around-comment": "error"
+    // just for pre-formatting purpose
+    "lines-around-comment": [
+      "error",
+      { "beforeBlockComment": true, "beforeLineComment": true }
+    ]
   }
 }
